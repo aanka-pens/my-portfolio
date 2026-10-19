@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: ivory;
+    margin: 0;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    max-width: 1000px;
+    margin: 20px auto 0;
+    background-color: black;
+    color: ivory;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: ivory;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+    min-width: 0;
+}
+
+.about-text {
+    line-height: 1,6;
+    overflow-wrap: break-word;
+}
+
+#about div {
+    text-align: left;
+}
+
+#about p {
+    flex: 1;
+}
+
+#about img {
+    display: block;
+    width: 220px;
+    max-width: 38%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    padding-left: 25px;
+}
+
+footer {
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 20px auto 0;
+    padding: 25px;
+    background-color: black;
+    color: ivory;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer h3 {
+    color: ivory;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 8px 0;
+}
